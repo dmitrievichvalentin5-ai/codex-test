@@ -1,0 +1,7 @@
+﻿while $true:
+    name = input('Введите ваше имя: ').strip()
+    if name:
+        break
+    print('Имя не может быть пустым, попробуйте ещё раз.')
+
+print(f'Привет, {name}!')
